@@ -1,0 +1,26 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "Projet 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"test\"",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sillinea/Projet1.git"
+  },
+  "keywords": [
+    "UCI"
+  ],
+  "author": "Sillinea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sillinea/Projet1/issues"
+  },
+  "homepage": "https://github.com/Sillinea/Projet1#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
