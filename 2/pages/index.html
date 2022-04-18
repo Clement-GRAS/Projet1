@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/style.css"/>
+    </head>
+<body>
+
+    <header>
+        <div id="header">
+                <div id="logo_fixe">
+                    <a href="http://localhost:3000/" title= "Redirection Index"><img src="images/uci2.png" alt="Index" /></a>
+                </div>
+                <h1>Homework 2</h1>
+                <div id="bouton1">
+                    <a href="/images/uci.png" id="">UCI image</a>
+                </div>
+                <div id="bouton2">
+                    <a href="/js/test.js" id="">Test.js</a>
+                </div>        
+                <div id="bouton3">
+                    <a href="/api/1" id="">API</a>
+                </div>                
+        </div>
+    </header>
+
+    <script src= "/js/test.js"></script>
+
+    <h1>Form</h1>
+    <form id="form">
+        <input type="text" name="id" id="id" value="1">
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id='to-insert'></p>
+
+    <h1>Subject</h1>
+    <p>I am a Test</p>
+    <p>For the Homework 2</p>
+</body>
+
+<script>
+    const form = document.getElementById('form')
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+
+        var data = document.getElementById('id').value;
+
+        fetch('/api/' + data).then(response => response.json()).then(data2 => {
+            document.getElementById('to-insert').innerHTML = "The corresponding letter is : " + data2['id'];
+        })
+    })
+
+</script>
+</html>
