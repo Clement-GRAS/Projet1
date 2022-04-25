@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the assignment 2.
+This is the assignment 2. 
 
 1. It is a node module
 2. That serves an HTML file when getting /
