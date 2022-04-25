@@ -1,8 +1,8 @@
 {
-  "name": "2",
+  "name": "3",
   "type": "module",
   "version": "1.0.0",
-  "description": "Assignment 2",
+  "description": "Homework 3",
   "main": "index.js",
   "scripts": {
     "test": "echo test",
