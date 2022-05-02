@@ -1,0 +1,30 @@
+{
+  "name": "4",
+  "version": "1.0.0",
+  "description": "Homework 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo test",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sillinea/Projet1.git#main"
+  },
+  "keywords": [
+    "Assignment"
+  ],
+  "author": "Sillinea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sillinea/Projet1/issues"
+  },
+  "homepage": "https://github.com/Sillinea/Projet1/tree/main#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "knex": "^2.0.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3"
+  }
+}
